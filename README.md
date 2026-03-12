@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python strabismus_analysis_pipeline.py
 ```
 
-**Note:** The clinical dataset (`Strabismus_tknmAndIto_enhanced.csv`) is not included in this repository due to patient privacy restrictions. See **Data Availability** below.
+**Note:** The clinical dataset is not included in this repository due to patient privacy restrictions. See **Data Availability** below.
 
 ## File Structure
 
