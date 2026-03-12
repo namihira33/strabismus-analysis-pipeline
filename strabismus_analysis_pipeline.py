@@ -1,13 +1,8 @@
 """
 斜視診断解析パイプライン
-筑波大学附属病院 眼科
-
-論文に報告された解析の再現可能なPython実装。
 
 注記:
-  - 近見・遠見の単独ROC解析は、元々JavaScriptで固定シードなしに実行された。
-  - 元々のLGBM解析はStrabismusMLPipelineクラス（Python）で実行された。
-  - 本スクリプトは統一的かつ再現可能なPython実装を提供する。
+  - LGBM解析はStrabismusMLPipelineクラス（Python）で実行された。
   - 交差検証の分割実装の差異により、論文報告値との軽微な数値差が生じうる。
 """
 
